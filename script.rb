@@ -1,5 +1,11 @@
 class Script
 
+  def initialize
+    calculating
+  end
+
+  private
+
   def reading
     input = File.open("input.txt") {|file| file.read}
     i = 0
@@ -39,10 +45,6 @@ class Script
     puts "Max sum: #{hill_array[0][0]}"
     puts "Indexes of optimal path:"
     p make_path(hill_array)
-  end
-
-  def initialize
-    calculating
   end
 
 end
