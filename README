@@ -1,0 +1,18 @@
+Скрипт реализации задачи о "золотой горе" на ruby.
+Условия:
+- На вход подается текстовый файл целых чисел, разделенных пробелами, в файле N строк, в i­-той строке i элементов
+- Если в i-той строке есть k-e число a[i,k], то соседними с ним в следующей строке будут числа a[i+1,k] и a[i+1,k+1]
+- Путь начинается с единственного числа в первой строке, заканчивается в последней, и пролегает через соседние числа (всего возможных путей 2^(N-1))
+- Найти и визуально отобразить путь с максимальной суммой
+
+На входе имеем текстовый файл input.txt. На выходе максимальную сумму и последовательность индексов элементов, дающих эту сумму.
+
+===========================================================
+Script for programming task "golden hill (exercise of recursion)"
+
+- At the input we have txt file with integer numbers. In file N rows. In row i: i elements.
+- If in row i we have number a[i,k], so in next row adjacent will be numbers: a[i+1,k] and a[i+1,k+1].
+- Path starts at single number at first row and ends at last and runs through adjacent nubers (maximum paths is 2^(N-1)).
+- Calculate max sum path and show it.
+
+At the input we have file input.txt. At the output we will see max sum and sequence of indexes of elements, which made that path.
